@@ -33,6 +33,9 @@
                 <a href="Extensions/Array.html">Array</a>
               </li>
               <li class="nav-group-task">
+                <a href="Extensions/BinaryInteger.html">BinaryInteger</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Extensions/Date.html">Date</a>
               </li>
               <li class="nav-group-task">
@@ -64,37 +67,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:SS"></a>
-                    <a name="//apple_ref/swift/Extension/String" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SS">String</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                        <a href="Extensions/String.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">String</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:Sa"></a>
                     <a name="//apple_ref/swift/Extension/Array" class="dashAnchor"></a>
                     <a class="token" href="#/s:Sa">Array</a>
@@ -112,33 +84,9 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Element</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">RandomAccessCollection</span><span class="p">,</span> <span class="kt">MutableCollection</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Element</span><span class="o">&gt;</span></code></pre>
 
                         </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)NSTimer"></a>
-                    <a name="//apple_ref/swift/Extension/Timer" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)NSTimer">Timer</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/Timer.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
                   </div>
@@ -205,6 +153,33 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s13BinaryIntegerP"></a>
+                    <a name="//apple_ref/swift/Extension/BinaryInteger" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s13BinaryIntegerP">BinaryInteger</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                        <a href="Extensions/BinaryInteger.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">BinaryInteger</span> <span class="p">:</span> <span class="kt">CustomStringConvertible</span><span class="p">,</span> <span class="kt">Hashable</span><span class="p">,</span> <span class="kt">Numeric</span><span class="p">,</span> <span class="kt">Strideable</span> <span class="k">where</span> <span class="k">Self</span><span class="o">.</span><span class="kt">Magnitude</span> <span class="p">:</span> <span class="kt">BinaryInteger</span><span class="p">,</span> <span class="k">Self</span><span class="o">.</span><span class="kt">Magnitude</span> <span class="o">==</span> <span class="k">Self</span><span class="o">.</span><span class="kt">Magnitude</span><span class="o">.</span><span class="kt">Magnitude</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="task-group">
@@ -231,10 +206,65 @@
                 </li>
               </ul>
             </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS"></a>
+                    <a name="//apple_ref/swift/Extension/String" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS">String</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                        <a href="Extensions/String.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)NSTimer"></a>
+                    <a name="//apple_ref/swift/Extension/Timer" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)NSTimer">Timer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Extensions/Timer.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="http://josuemeza.com/" target="_blank" rel="external">Josue Meza Peña</a>. All rights reserved. (Last updated: 2018-03-12)</p>
+          <p>&copy; 2018 <a class="link" href="http://josuemeza.com/" target="_blank" rel="external">Josue Meza Peña</a>. All rights reserved. (Last updated: 2018-08-07)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Timer Extension Reference</title>
+    <title>BinaryInteger Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Extension/Timer" class="dashAnchor"></a>
-    <a title="Timer Extension Reference"></a>
+    <a name="//apple_ref/swift/Extension/BinaryInteger" class="dashAnchor"></a>
+    <a title="BinaryInteger Extension Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">SwiftyEssentials Docs</a></p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">SwiftyEssentials Reference</a>
         <img id="carat" src="../img/carat.png" />
-        Timer Extension Reference
+        BinaryInteger Extension Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -58,26 +58,24 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Timer</h1>
-            <p>Undocumented</p>
+            <h1>BinaryInteger</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">BinaryInteger</span> <span class="p">:</span> <span class="kt">CustomStringConvertible</span><span class="p">,</span> <span class="kt">Hashable</span><span class="p">,</span> <span class="kt">Numeric</span><span class="p">,</span> <span class="kt">Strideable</span> <span class="k">where</span> <span class="k">Self</span><span class="o">.</span><span class="kt">Magnitude</span> <span class="p">:</span> <span class="kt">BinaryInteger</span><span class="p">,</span> <span class="k">Self</span><span class="o">.</span><span class="kt">Magnitude</span> <span class="o">==</span> <span class="k">Self</span><span class="o">.</span><span class="kt">Magnitude</span><span class="o">.</span><span class="kt">Magnitude</span></code></pre>
 
+                </div>
+              </div>
+            
           </section>
           <section class="section task-group-section">
             <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Class%20functions"></a>
-                <a name="//apple_ref/swift/Section/Class functions" class="dashAnchor"></a>
-                <a href="#/Class%20functions">
-                  <h3 class="section-name">Class functions</h3>
-                </a>
-              </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@SwiftyEssentials@@objc(cs)NSTimer(cm)callbackInDuration:callback:"></a>
-                    <a name="//apple_ref/swift/Method/callbackInDuration(_:callback:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@SwiftyEssentials@@objc(cs)NSTimer(cm)callbackInDuration:callback:">callbackInDuration(_:callback:)</a>
+                    <a name="/s:s13BinaryIntegerP16SwiftyEssentialsE23stringThousandFormattedSSSgSS4with_tF"></a>
+                    <a name="//apple_ref/swift/Method/stringThousandFormatted(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s13BinaryIntegerP16SwiftyEssentialsE23stringThousandFormattedSSSgSS4with_tF">stringThousandFormatted(with:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -85,18 +83,22 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p><strong>callbackInDuration</strong></p>
+                        <p><strong>stringThousandFormatted</strong></p>
 
-<p>Call the parameter block in the parameter seconds.</p>
+<p>Makes a string representation of the number with thousand separator.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">callbackInDuration</span><span class="p">(</span><span class="n">_</span> <span class="nv">seconds</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stringThousandFormatted</span><span class="p">(</span><span class="n">with</span> <span class="nv">separator</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A string representation of this number with thousand separator.</p>
                       </div>
                     </section>
                   </div>

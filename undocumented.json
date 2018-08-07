@@ -1,6 +1,26 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/josuemezapena/xcode projects/SwiftyEssentials/SwiftyEssentials/Classes/String.swift",
+      "line": 14,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josuemezapena/xcode projects/SwiftyEssentials/SwiftyEssentials/Classes/String.swift",
+      "line": 18,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josuemezapena/xcode projects/SwiftyEssentials/SwiftyEssentials/Classes/String.swift",
+      "line": 22,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/josuemezapena/xcode projects/SwiftyEssentials"
 }
